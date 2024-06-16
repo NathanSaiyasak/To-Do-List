@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+   <header>
+    <nav>
+        <h1>Today's to do list</h1>
+    </nav>
+   </header>
+   <main>
+    <section class="to-do-interface">
+        <div class="add-item">
+            <input type="text" id="newTask" placeholder="Add your list here">
+            <button class="add-btn">
+                <img class="add-icon" src="./assets/icons/plus.square.fill.png" alt="add-button" />
+                <p class="add-text">Add item</p>
+            </button>
+        </div>
+        <div class="list-content-area" id="taskList">
+            <div class="the-list" id="first-the-list">
+                <div class="the-list-features">
+                    <div class="the-list-category">
+                        <p>Nathan_ssk</p>
+                    </div>
+                    <div class="content-modify">
+                        <button class="edit-text-btn"></button>
+                        <button class="list-done-btn"></button>
+                    </div>
+                </div>
+                <div class="the-list-main-content">
+                    <p>Don't forget to buy ham.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+</body>
+</html>

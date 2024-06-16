@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+input {
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+/* Header Section */
+
+nav {
+    padding: 30px 30px 0px 30px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+
+/* Main Interface Section */
+
+.to-do-interface {
+    padding: 30px;
+}
+
+/* Add item */
+
+.add-item {
+    display: flex;
+    gap: 10px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+#newTask {
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-btn:hover {
+    background-color: #dbdbdb;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.add-btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+}
+
+.add-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* The list */
+
+.list-content-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(4, 150px);
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+#first-the-list {
+    display: none;
+}
+
+.the-list {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.the-list-features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-list-category {
+    background-color: #f6f6f6;
+    color: #2d2d2d;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.the-list-category > p {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.content-modify {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-text-btn {
+    background-color: #FFE177;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.list-done-btn {
+    background-color: #AFFFAF;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.the-list-main-content {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2d2d2d;
+    padding: 25px 10px;
+}
